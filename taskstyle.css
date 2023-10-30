@@ -170,7 +170,8 @@
 
  }
 
- button.get-started {
+ button.get-started ,button.get-started >a {
      text-align: center;
      margin: auto;
+     color: white;
  }

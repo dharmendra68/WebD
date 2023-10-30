@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Web D</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body align="center"><fieldset>
+        <h3 style="color: red;">Personal Details</h3>
+        <form action="" fieldset>
+                <label>Name : </label>
+                <input type="text" name="fname" placeholder=" enter your name" /><br /><br />
+                <label>Password : </label>
+                <input type="password" name="pswd" placeholder="enter your password" /><br /><br>
+                <label>E-mail Id : </label>
+                <input type="email" name="email" placeholder="enter your email" /> <br /><br />
+                <label>Gender : </label>
+                <input type="radio" id="male" name="Gender" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender" />
+                <label for="female">Female</label><br /><br />
+                <label>Contact# : </label>
+                <input type="tel" name="contact" placeholder="enter your mobile no." /><br><br>
+                <h3 style="color: red;">Education Qualification</h3>
+                <label for="degree">Degree : </label>
+                <select name="degree" id="degree">
+                        <option value="btech">B.Tech</option>
+                        <option value="bsc">B.Sc</option>
+                </select><br><br>
+                <label>Hobbies : </label>
+                <input type="checkbox" name="hobbies" id="chess" />
+                <label for="chess">Playing  </label>
+                <input type="checkbox" id="book" /> <label for="book">Reading Books</label><br><br>
+                <label>Address : </label><br>
+                <textarea placeholder="type your address" rows="5" cols="30"></textarea><br><br>
+                <label>Attech Resume : </label>
+                <input type="file" name="Resume">
+                <br><br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+        </fieldset>
+        </form>
+</body>
+
+</html>

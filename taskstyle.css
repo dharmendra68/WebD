@@ -19,6 +19,8 @@
      left: 0;
      width: 100%;
      overflow: hidden;
+     position: relative;
+     
  }
 
  li {
@@ -27,6 +29,7 @@
      padding: 20px 20px;
 
  }
+
 
  .nav {
      padding-top: 10px;
@@ -174,4 +177,5 @@
      text-align: center;
      margin: auto;
      color: white;
+     text-decoration: none;
  }

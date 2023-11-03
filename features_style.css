@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menu>ul {
+    display: flex;
+}
+.menu>ul>li {
+    border-right: 2px solid black;
+    position: relative;
+}
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: red;
+    padding: 0px;
+    display: none;
+}
+.country:hover .submenu {
+    display: block;
+}
+.menu a {
+    display: block;
+    background-color: aqua;
+    padding: 10px 20px;
+}
+a:hover {
+    background-color: rgba(0, 255, 255, 0.578);
+}

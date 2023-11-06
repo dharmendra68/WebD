@@ -30,3 +30,26 @@
 a:hover {
     background-color: rgba(23, 82, 82, 0.68);
 }
+.test {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+    margin: auto;
+    line-height: 200px;
+    animation-name: goodday;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    
+}
+@keyframes goodday{
+    from{
+        border-radius: 20%;
+    }
+    to { border-radius: 50%;
+        color: white;
+        background-color: rgb(18, 110, 110);}
+}

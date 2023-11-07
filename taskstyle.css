@@ -58,7 +58,7 @@
      margin-right: 200px;
  }
 
- button {
+ button, navbar ul li button a {
      display: block;
      padding: 10px;
      background-color: blue;

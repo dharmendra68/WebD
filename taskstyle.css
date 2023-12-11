@@ -20,7 +20,7 @@
      width: 100%;
      overflow: hidden;
      position: relative;
-     
+
  }
 
  li {
@@ -58,7 +58,8 @@
      margin-right: 200px;
  }
 
- button, navbar ul li button a {
+ button,
+ navbar ul li button a {
      display: block;
      padding: 10px;
      background-color: blue;
@@ -74,12 +75,19 @@
  div.one {
      display: inline-block;
      margin-left: 50px;
+     width: 45%;
  }
 
  div.two {
+     width: 48%;
      float: right;
      margin-right: 10px;
      margin-top: 50px;
+     box-sizing: border-box;
+ }
+
+ .two img {
+     width: 100%;
  }
 
 
@@ -173,7 +181,8 @@
 
  }
 
- button.get-started ,button.get-started >a {
+ button.get-started,
+ button.get-started>a {
      text-align: center;
      margin: auto;
      color: white;

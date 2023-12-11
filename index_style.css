@@ -35,11 +35,8 @@
      padding-top: 10px;
  }
 
- ul .navc#login {
-     padding-top: 10px;
-     float: right;
-     margin-right: 30px;
- }
+ li#login {
+    margin-left: 487px;}
 
  li a {
      text-decoration: none;

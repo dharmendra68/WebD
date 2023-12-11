@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menu>ul {
+    display: flex;
+}
+.menu>ul>li {
+    border-right: 2px solid black;
+    position: relative;
+}
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+    padding: 0px;
+    display: none;
+}
+.country:hover .submenu {
+    display: block;
+}
+.menu a {
+    display: block;
+    background-color: aqua;
+    padding: 10px 20px;
+}
+a:hover {
+    background-color: rgba(23, 82, 82, 0.68);
+}
+.test {
+    width: 200px;
+    height: 200px;
+    border: 20px solid transparent;
+    box-shadow: 9px 0px 5px red, -9px 0 5px blue;
+    border-image: url(border.png) 60% stretch;
+    text-align: center;
+    background-color: aqua;
+    margin: auto;
+    text-shadow: 2px 2px 2px red ;
+    line-height: 200px;
+    animation-name: goodday;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    
+}
+@keyframes goodday{
+    from{
+        border-radius: 20%;
+    }
+    to { border-radius: 50%;
+        color: white;
+        background-color: rgb(18, 110, 110);}
+}
+.D10 {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    
+    margin: 20px 10px;
+    animation-name: d10;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    background: rgb(107, 107, 66);
+
+}
+
+.D20 {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: grey;
+    margin-left: 10px;
+    animation-name: d10;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+
+
+}
+@keyframes d10 {
+    0% {margin-left: 10px; opacity: 1; }
+    100%{ margin-left: 1150px; opacity: .03; }
+}

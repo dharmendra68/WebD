@@ -36,7 +36,9 @@
  }
 
  li#login {
-    margin-left: 487px;}
+    margin-left: 487px;
+    padding-top: 10px;
+}
 
  li a {
      text-decoration: none;

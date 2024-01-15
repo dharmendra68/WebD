@@ -35,9 +35,9 @@ a:hover {
     height: 200px;
     border: 20px solid transparent;
     box-shadow: 9px 0px 5px red, -9px 0 5px blue;
-    border-image: url(border.png) 60% stretch;
+    border-image: url(border.png) 29/ 10px repeat;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(206, 224, 224);
     margin: auto;
     text-shadow: 2px 2px 2px red ;
     line-height: 200px;
@@ -45,6 +45,7 @@ a:hover {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    
 
     
 }
@@ -90,6 +91,7 @@ a:hover {
 
 }
 @keyframes d10 {
-    0% {margin-left: 10px; opacity: 1; }
-    100%{ margin-left: 1150px; opacity: .03; }
+    0% {margin-left: 10px; opacity: 1; border-radius: 20%; }
+    50% {margin-left:500px; opacity:0.5; border-radius: 50%;}
+    100%{ margin-left: 1150px; opacity: 1; border-radius: 20%; }
 }

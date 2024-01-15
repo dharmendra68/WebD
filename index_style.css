@@ -89,7 +89,6 @@
      width: 100%;
  }
 
-
  div.three {
      background-color: rgb(255, 255, 255);
      overflow: auto;
@@ -114,7 +113,6 @@
      text-align: center;
 
  }
-
 
  div.product {
      padding-top: 30px;
@@ -176,12 +174,9 @@
      color: white;
      width: auto;
 
-
-
  }
 
- button.get-started,
- button.get-started>a {
+ button.get-started, button.get-started>a {
      text-align: center;
      margin: auto;
      color: white;

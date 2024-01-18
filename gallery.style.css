@@ -45,27 +45,25 @@ img {
 #div1::-webkit-scrollbar-corner {
     background-color: green;
 }
-
-#div2 {
-
-    border: 1px solid red;
-    height: 200px;
-
-}
-
-#div3 {
-
-    border: 1px solid red;
-    height: 200px;
-
-}
-.parent{
+.parent {
     border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 20px;
+    
 }
-.child{
-    background-color: rgb(5, 5, 80);
-    height: 100px;
-    color: white;
-    padding: 10px;
-    line-height: 100px;
+.parent > div {
+    background-color: yellow;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 70px;
+    ;
+}
+
+.parent > div:hover {
+    background-color: blue;
+    cursor: pointer;
 }

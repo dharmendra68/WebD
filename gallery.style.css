@@ -47,23 +47,28 @@ img {
 }
 .parent {
     border: 2px solid black;
-
+    width: 600px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
     padding: 20px;
     
 }
 .parent > div {
     background-color: yellow;
-    width: 70px;
-    height: 70px;
+  
     text-align: center;
-    border-radius: 50%;
+    border-radius: 20%;
     line-height: 70px;
     ;
 }
 
 .parent > div:hover {
-    background-color: blue;
+    background-image: radial-gradient(green,blue,red);
     cursor: pointer;
+    color: white;
+}
+.item1 {
+    grid-area: 2/4/4/6;
+
 }

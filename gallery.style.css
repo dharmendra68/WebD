@@ -64,7 +64,7 @@ img {
 }
 
 .parent > div:hover {
-    background-image: radial-gradient(green,blue,red);
+    background-image: linear-gradient(yellow,blue ,red);
     cursor: pointer;
     color: white;
 }
